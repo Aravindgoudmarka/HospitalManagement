@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/HM.DB/bin
+/HM.DB/obj
+/HM.Models/obj
+/HM.Models/bin
+/HM.Services/obj
+/HM.Services/bin
+/HospitalManagement/obj
+/HospitalManagement/bin
+/HM.DB/Import Schema Logs
+*.user

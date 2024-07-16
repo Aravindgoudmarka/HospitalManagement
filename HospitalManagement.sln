@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagement", "HospitalManagement\HospitalManagement.csproj", "{EE35DAC9-C1F4-4140-A09E-417BDA9A343F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalManagement", "HospitalManagement\HospitalManagement.csproj", "{EE35DAC9-C1F4-4140-A09E-417BDA9A343F}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HM.DB", "HM.DB\HM.DB.sqlproj", "{F4986E40-BDFF-44B9-8428-33A252D904F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HM.Services", "HM.Services\HM.Services.csproj", "{7F7DBC59-575E-4693-A66A-E10D8D2A90FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HM.Services", "HM.Services\HM.Services.csproj", "{7F7DBC59-575E-4693-A66A-E10D8D2A90FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HM.Models", "HM.Models\HM.Models.csproj", "{A76814C6-756D-4BF3-B268-1B7D13AB32D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HM.Models", "HM.Models\HM.Models.csproj", "{A76814C6-756D-4BF3-B268-1B7D13AB32D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HM.Razor", "HM.Razor\HM.Razor.csproj", "{BE215A25-1BAF-4183-BF46-2EE6D0661110}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{A76814C6-756D-4BF3-B268-1B7D13AB32D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A76814C6-756D-4BF3-B268-1B7D13AB32D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A76814C6-756D-4BF3-B268-1B7D13AB32D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE215A25-1BAF-4183-BF46-2EE6D0661110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE215A25-1BAF-4183-BF46-2EE6D0661110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE215A25-1BAF-4183-BF46-2EE6D0661110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE215A25-1BAF-4183-BF46-2EE6D0661110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

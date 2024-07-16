@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Appointment] (
-    [AppointmentId] INT      NULL,
+    [AppointmentId] INT      NOT NULL primary key identity(1,1),
     [ScheduledOn]   DATETIME NULL,
     [DateOfVisit]   DATE     NULL,
     [DepartmentId]  INT      NULL,

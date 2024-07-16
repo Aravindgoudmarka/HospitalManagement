@@ -13,3 +13,5 @@
 /HospitalManagement/bin
 /HM.DB/Import Schema Logs
 *.user
+/HM.Razor/bin/Debug/net8.0
+/HM.DB
